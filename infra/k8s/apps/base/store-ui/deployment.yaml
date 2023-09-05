@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: store-ui
-        image: store-ui:latest
+        image: mahendravarman12/sample:store
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
