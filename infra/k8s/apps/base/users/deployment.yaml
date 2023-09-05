@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: users
-        image: users:latest
+        image: mahendravarman12/sample:user
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
